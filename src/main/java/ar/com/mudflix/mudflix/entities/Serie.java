@@ -19,7 +19,4 @@ public class Serie extends Contenido {
 
     private List<Temporada> temporadas;
 
-    public ObjectId get_id() {
-        return null;
-    } 
 }

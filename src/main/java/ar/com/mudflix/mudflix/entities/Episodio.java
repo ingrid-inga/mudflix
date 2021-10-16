@@ -9,8 +9,4 @@ public class Episodio {
 
     private Integer numeroEpisodio;
     private String nombre;
-    public Object getNumeroEpisodio() {
-        return null;
-    }
- 
 }

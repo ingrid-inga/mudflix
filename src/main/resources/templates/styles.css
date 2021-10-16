@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+
+}
+
+header{
+    height: 30vh;
+    width: 100vw;
+    margin-top: 15vh;
+}
+
+h1{
+    color: blue;
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+}
+
+h2{
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    line-height: 30px;
+
+}
+
+p{
+    color:coral;
+    text-align: center;
+    font-size: larger;
+}
+
+#categorias{ 
+
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div{
+   
+    background-color: aqua;
+    color:rgb(37, 54, 2);
+    text-align: center;
+    margin: 1%;
+    line-height: 75px;
+    width: 200px;
+}

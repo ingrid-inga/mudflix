@@ -11,12 +11,13 @@ import ar.com.mudflix.mudflix.models.response.GenericResponse;
 import ar.com.mudflix.mudflix.services.SerieService;
 
 @RestController
+//@RequestMapping("/opcion")
 public class SerieController {
 
     @Autowired
     SerieService serieService;
 
-    @GetMapping( "/api/series")
+    @GetMapping("/api/series")
     public ResponseEntity<List<Serie>> getSeries() {
 
         List<Serie> series = serieService.traerSeries();
